@@ -1,3 +1,42 @@
 /* =============
     Navigation
 ============= */
+
+#nav-container {
+
+    ul {
+        height: 100%;
+
+        @include lg {
+            display: flex;
+        }
+
+        li {
+            margin-bottom: 20px;
+
+            @include lg {
+                align-items: center;
+                border-right: 2px solid $black;
+                display: flex;
+                margin-bottom: 0px;
+            }
+
+            a:link,
+            a:visited {
+                color: $dark-red;
+                font-family: Oxygen;
+                padding: 0 20px;
+                text-decoration: none;
+
+            a:hover,
+            a:active {
+                color: $red;
+            }
+        }
+
+        li:first-child {
+            border: none;
+        }
+        }
+    }
+}

@@ -1,0 +1,73 @@
+/* =============
+    Section-3
+============= */
+#section-3 {
+    background-color: $light-black;
+    @include xl {
+        display: grid;
+        grid-template-areas: ". section-3 .";
+        grid-template-columns: auto 1200px auto;
+    }
+
+    >div {
+        @include lg {
+            display: grid;
+            grid-template-columns: 40% auto;
+        }
+
+        @include xl {
+            grid-area: section-3;
+        }
+
+        aside {
+            background-image: url('../img/circle.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 380px;
+
+            @include md {
+                height: 476;
+            }
+
+            @include lg {
+                height: auto;
+            }
+        }
+
+
+        #section-3-container {
+            color: $blue;
+            display: grid;
+            grid-template-areas: ". section-3 .";
+            grid-template-columns: 10px auto 10px;
+            padding: 60px 0;
+
+            @include md {
+                grid-template-columns: 10% auto 10%;
+            }
+
+            @include lg {
+                padding: 25px 0 44px;
+            }
+
+            #section-3-content {
+                grid-area: section-2;
+
+                h1{
+                    font-family: 'IM Fell DW Pica';
+                    font-size: rem-calc(21);
+                    line-height: rem-calc(26);
+                    margin-bottom: 35px;
+                }
+
+                p {
+                    font-family: Oxygen;
+                    font-size: rem-calc(18);
+                    line-height: rem-calc(26);
+                    text-align: center;
+                }
+            }
+        }
+    }
+}

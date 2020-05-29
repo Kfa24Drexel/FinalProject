@@ -1,9 +1,36 @@
 /* =============
-    Section 1
+    Section-1
 ============= */
-#section-1{
-    .grid-content{
-        
+
+#section-1 {
+    #section-1-hero {
+        background-image: url('../img/hero.jpg');
+        background-position: center;
+        background-size: cover;
+        height: 240px;
+
+        @include md {
+            height: 340px;
+        }
     }
 
+    #section-1-text {
+        grid-area: section-1;
+        text-align: center;
+        position: relative;
+        max-width: 750px;
+        margin-top: 50px;
+        width: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-family: Oxygen;
+        h2 {
+            font-weight: 700;
+            font-size: 38px;
+        }
+        h3 {
+            font-weight: 400;
+            font-size: 28px;
+        }
+    }
 }
