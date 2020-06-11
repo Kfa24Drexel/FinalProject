@@ -19,6 +19,93 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/card1.jpg": {
+		"ft": 16384,
+		"iS": 110804,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/card1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/card2.jpg": {
+		"ft": 16384,
+		"iS": 93426,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/card2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/card3.jpg": {
+		"ft": 16384,
+		"iS": 99615,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/card3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/card4.jpg": {
+		"ft": 16384,
+		"iS": 97205,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/card4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/card5.jpg": {
+		"ft": 16384,
+		"iS": 102286,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/card5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/card6.jpg": {
+		"ft": 16384,
+		"iS": 105697,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/card6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/circle.png": {
+		"ft": 32768,
+		"iS": 146241,
+		"oA": 0,
+		"oAP": "/deploy/img/circle.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/hero.jpg": {
 		"ft": 16384,
 		"iS": 491518,
@@ -30,6 +117,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/logo.png": {
 		"ft": 32768,
 		"iS": 26500,
@@ -40,6 +137,37 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"/deploy/img/map.jpg": {
+		"ft": 16384,
+		"iS": 451379,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/map.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/youtube.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/youtube.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/index.html": {
 		"cB": 0,
@@ -290,6 +418,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"/dev/scss/sections/_section-6.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-6.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"/dev/scss/styles.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -347,7 +488,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/section-6.html",
 		"oF": 0
 		},

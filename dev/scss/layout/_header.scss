@@ -7,6 +7,8 @@ header {
     top: 0;
     width: 100%;
     position: fixed;
+    z-index: 100;
+
 
     >div {
         display: grid;
@@ -23,6 +25,7 @@ header {
             display: flex;
             grid-area: burger;
             padding: 10px;
+            color: $dark-red;
 
             @include lg {
                 display: none !important;
@@ -38,11 +41,17 @@ header {
             background-color: $dark-red;
             display: none;
             grid-area: nav;
+            font-family: Oxygen;
+            font-style: bold;
+            font-size: rem-calc(20);
+            color: $dark-red;
             padding: 10px;
+            
             @include lg {
                 background-color: $black;
                 display: block !important;
             }
+            
         }
     }
 }

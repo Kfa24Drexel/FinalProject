@@ -1,0 +1,41 @@
+/* =============
+    Section-6
+============= */
+#section-6 {
+    padding-bottom: 100px;
+    #section-6-content {
+        .section-2-text {
+            color: $black;
+        }
+    }
+    .section-6-title {
+        text-align: center;
+        position: relative;
+        right: 340px;
+        h1 {
+            padding-top: 60px;
+            font-family: IM FELL DW Pica;
+            font-size: rem-calc(60);
+            padding-bottom: 10px;
+            color: $red;
+        }
+        
+    }
+    .section-6-content {
+        background-image: url('../img/map.jpg');
+        background-size: cover;
+        height: 500px;
+    }
+    .section-6-text {
+        h2 {
+            font-family: Oxygen;
+            font-style: bold;
+            font-size: rem-calc(30);
+            line-height: rem-calc(40);
+            color: $white;
+            max-width: 400px;
+            padding-left: 20px;
+            padding-top: 360px;
+        }
+    }
+}

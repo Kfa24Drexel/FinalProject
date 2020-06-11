@@ -1,3 +1,44 @@
 /* =============
     Section-2
 ============= */
+    .section-2-title {
+        text-align: center;
+        position: relative;
+        right: 340px;
+        h1 {
+            font-family: IM FELL DW Pica;
+            font-size: rem-calc(60);
+            padding-bottom: 10px;
+            color: $red;
+        }
+        
+    }
+    .section-2-all {
+        display: grid;
+        max-width: 960px;
+        margin: 0 auto;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+        padding-bottom: 80px;
+    }
+
+    .section-2-contents {
+        background-color: #fff;
+        display: contents;
+    }
+
+    .section-2-inner {
+        h2{
+            font-family: Oxygen;
+            font-style: bold;
+            font-size: rem-calc(30);
+            line-height: rem-calc(16);
+            color: $dark-red;
+        }
+        p {
+            font-family: Oxygen;
+            font-size: rem-calc(15);
+            line-height: rem-calc(20);
+            color: $black;
+        }
+    }

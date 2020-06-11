@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    html {
+        scroll-behavior: smooth;
+    }
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +13,15 @@
         <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3c79b583ac.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
         
+    
     <header>
         <div> 
     
@@ -28,7 +34,7 @@
                     <li><a href="#section-1"><img src="img/logo.png"></a></li>
                     <li><a href="#section-2">Attractions</a></li>
                     <li><a href="#section-3">Remix</a></li>
-                    <li><a href="#section-4">The Prison</a></li>
+                    <li><a href="#section-4" id="space"><span style="white-space: nowrap;">The Prison</span></a></li>
                     <li><a href="#section-5">Pricing</a></li>
                     <li><a href="#section-6">Location</a></li>
                 </ul>
@@ -44,21 +50,101 @@
             </div>
         </section>
     
-    <section id="section-3">
-                    <div>
-                        <aside>
-                        </aside>
-                        <section id="section-3-container">
-                            <div id="section-3-content">
-                                <h1>Remix</h1>
-                                <p>With the light from just a single glowstick leading the way, you will be left to find your own way out of the pitch-black, narrow back hallways of the 10-acre penitentiary.</p>
+            <section id="section-2">
+                <div class="section-2-title">
+                    <h1>Attractions</h1>
+                </div>
+                <div class="section-2-all">
+                    <div class="section-2-contents">
+                        <div class="item card1">
+                            <img src="img/card1.jpg" alt="card 1">
+                            <div class="section-2-inner">
+                                <h2>Lock Down</h2>
+                                <p>You enter the looming façade of Cellblock 12, said to be the most haunted location inside the penitentiary. Rioting zombie have taken over, zombie guards have lost control, and the chaotic scene is filled with thick fog and mangled bars.</p>
                             </div>
-                        </section>
+                        </div>
+            
+                        <div class="item card2">
+                            <img src="img/card2.jpg" alt="card 1">
+                            <div class="section-2-inner">
+                                <h2>Machine Shop</h2>
+                                <p>Hidden deep inside the cellblocks is a long-forgotten machine shop. Evil pervades this space – an evil with one mind but with many bodies. Will you survive, or will you become just another cog in the machine?</p>
+                            </div>
+                        </div>
+            
+                        <div class="item card3">
+                            <img src="img/card3.jpg" alt="card 1">
+                            <div class="section-2-inner">
+                                <h2>Infirmary</h2>
+                                <p>Infirmary takes the fear of hospitals to a whole new level. In this newly revamped and highly interactive attraction, you'll encounter maniacal surgeons, orderlies, dentists, and nurses who are sharpening their scalpels for some unusual, unnatural operations.</p>
+                            </div>
+                        </div>
+            
+                        <div class="item card4">
+                            <img src="img/card4.jpg" alt="card 1">
+                            <div class="section-2-inner">
+                                <h2>Blood Yard</h2>
+                                <p>Deep within the ruins of the prison compound, you discover the camp of a gruesome colony. A path marked with bones leads you deeper into the lair of the butcher, the warriors, and their ancient empress - the forgotten who now reside among the fragments of the lost prison.</p>
+                            </div>
+                        </div>
+            
+                        <div class="item card5">
+                            <img src="img/card5.jpg" alt="card 1">
+                            <div class="section-2-inner">
+                                <h2>Quarantine 4D</h2>
+                                <p>Inside, you learn of an infectious outbreak, whose symptoms include hallucinations, blurry vision, distorted depth perception, and other mind-altering effects. Flat walls appear to have depth, and some brave visitors will be challenged to face their WORST FEARS.</p>
+                            </div>
+                        </div>
+            
+                        <div class="item card6">
+                            <img src="img/card6.jpg" alt="card 1">
+                            <div class="section-2-inner">
+                                <h2>Break Out</h2>
+                                <p>Just when you think you've found freedom, you find yourself in the middle of a prison break! Zombies surround you using every way imaginable to escape, including barrels, ropes, tunnels, ladders and crates.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+    <section id="section-3">
+                    <div class="section">
+                        <div class="container top">
+                            <h1>Remix</h1>
+                        </div>
+                        <div class="container left">
+                          <img src="img/circle.png" alt="circle">
+                          <div class="container text">
+                            <p>With the light from just a single glowstick leading the way, you will be left to find your own way out of the pitch-black, narrow back hallways of the 10-acre penitentiary.</p>
+                          </div>
+                        </div>
                     </div>
                 </section>
-    
-    
-    
+    <!-- Hi, if you are seeing this these files are only here for future development on this project. Not for Web 2 -->
+    <!-- Hi, if you are seeing this these files are only here for future development on this project. Not for Web 2 -->
+    <section id="section-6">
+                                <div class="section-6-title">
+                                    <h1>Location</h1>
+                                </div>
+                                <div class="section-6-content">
+                                    <div class="section-6-text">
+                                        <h2>2027 Fairmount Avenue Philadelphia, PA 19130 Phone: (215) 236-3300</h2>
+                                        </div>
+                                </div>
+                            </section>
+    <footer>
+                                    <div id="footer-logo">
+                                        <img src="img/logo.png">
+                                    </div>
+                                    <div>
+                                        <ul>
+                                            <li><a href="https://www.facebook.com/"><img src="img/facebook.svg" alt="facebook logo"></a></li>
+                                            <li><a href="https://twitter.com/explore"><img src="img/twitter.svg" alt="twitter logo"></a></li>
+                                            <li><a href="https://youtube.com/"><img src="img/youtube.svg" alt="youtube logo"></a></li>
+                                            <li><a href="https://www.instagram.com/?hl=en"><img src="img/instagram.svg" alt="instagram logo"></a></li>
+                                        </ul>
+                                    </div>
+                                </footer>
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

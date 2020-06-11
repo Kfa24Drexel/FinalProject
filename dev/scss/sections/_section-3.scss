@@ -1,73 +1,48 @@
 /* =============
     Section-3
 ============= */
-#section-3 {
-    background-color: $light-black;
-    @include xl {
-        display: grid;
-        grid-template-areas: ". section-3 .";
-        grid-template-columns: auto 1200px auto;
-    }
+.section {
+    width: 80%;
+    padding: 20px 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    background: $light-black;
+    border-radius: 80px;
+    max-width: 850px;
+    
+  }
+  
+  .container {
+    display: grid;
+    grid-gap: 30px;
+  }
+  
+  .container.left {
+    grid-template-columns: 1fr 2fr;
+    padding-left: 50px;
+  }
+  .container.top {
+      text-align: center;
+  }
+  
+  .container.right {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    text-align: right;
+  }
+h1 {
+    font-family: IM FELL DW Pica;
+    font-size: rem-calc(60);
 
-    >div {
-        @include lg {
-            display: grid;
-            grid-template-columns: 40% auto;
-        }
-
-        @include xl {
-            grid-area: section-3;
-        }
-
-        aside {
-            background-image: url('../img/circle.png');
-            background-position: center;
-            background-repeat: no-repeat;
-            background-size: contain;
-            height: 380px;
-
-            @include md {
-                height: 476;
-            }
-
-            @include lg {
-                height: auto;
-            }
-        }
-
-
-        #section-3-container {
-            color: $blue;
-            display: grid;
-            grid-template-areas: ". section-3 .";
-            grid-template-columns: 10px auto 10px;
-            padding: 60px 0;
-
-            @include md {
-                grid-template-columns: 10% auto 10%;
-            }
-
-            @include lg {
-                padding: 25px 0 44px;
-            }
-
-            #section-3-content {
-                grid-area: section-2;
-
-                h1{
-                    font-family: 'IM Fell DW Pica';
-                    font-size: rem-calc(21);
-                    line-height: rem-calc(26);
-                    margin-bottom: 35px;
-                }
-
-                p {
-                    font-family: Oxygen;
-                    font-size: rem-calc(18);
-                    line-height: rem-calc(26);
-                    text-align: center;
-                }
-            }
-        }
-    }
+    color: $blue;
+}
+.container.text {
+  font-family: Oxygen;
+  font-size: rem-calc(18);
+  line-height: rem-calc(26);
+  text-align: center;
+  padding-right: 50px;
+  color: $white;
 }
